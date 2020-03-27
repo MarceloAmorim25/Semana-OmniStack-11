@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const api = axios.create({
-    baseURL: 'http://endereço:porta'
+    baseURL: ''
 });
 
 export default api;
